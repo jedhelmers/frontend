@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Add Udacity's API server to parent director
+https://github.com/udacity/reactnd-project-readable-starter.git
+
 ## Available Scripts
 
 In the project directory, you can run:
