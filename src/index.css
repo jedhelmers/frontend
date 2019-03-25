@@ -12,3 +12,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+table {
+  /* width: 75%;
+  font-size: 14px; */
+}
+
+tr {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0;
+  grid-row: 1/3;
+  border: 1px solid rgba(255, 255, 255, .4) */
+
+}
+
+th {
+  /* padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white; */
+}
+
+thead > tr:first-child {
+  /* visibility: hidden */
+}
+
+tr:nth-child(even) {
+  /* background-color: #575659; */
+}
+
+tfoot {
+  /* background-color: #000;
+  table-layout: auto */
+}
+
+td {
+  /* text-align: left;
+  padding: 5px;
+  background-color: rgba(220, 0, 0, .125) */
+}
+
+/* .td1 {
+  grid-column: 1;
+  grid-row: 2;
+  margin: 5px;
+  font-size: 12px;
+  max-width: 150px
+}
+
+.td2 {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  margin: 5px;
+  border-right: 1px solid rgba(255, 255, 255, .4);
+  max-width: 150px
+}
+
+.td3 {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.td4 {
+  grid-column: 3;
+  grid-row: 1;
+} */
