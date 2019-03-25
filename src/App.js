@@ -46,6 +46,7 @@ class App extends Component {
                   <th>Item Number</th>
                   <th>ID</th>
                   <th>ID</th>
+                  <th></th>
                 </tr>
               </thead>
             )}
@@ -71,24 +72,19 @@ class App extends Component {
                 </td>
                 <td className={styles.td3}>3</td>
                 <td className={styles.td4}>4</td>
+                <td className={styles.td5}>
+                  <div style={{
+                      display: 'flex',
+                      flexDirection: 'column',
+                      justifyContent: 'center',
+                      height: '100%',
+                      width: '100%'}}
+                    >
+                    +
+                  </div>
+                </td>
               </tr>
 
-              <tr>
-                <td className={styles.td1}>
-                  {!this.state.toggle && (
-                    <strong>Bin Location</strong>
-                  )}
-                  <div>BUTTSMCGOO</div>
-                </td>
-                <td className={styles.td2}>
-                  {!this.state.toggle && (
-                    <strong>Item Number</strong>
-                  )}
-                  <div>1234567890</div>
-                </td>
-                <td className={styles.td3}>3</td>
-                <td className={styles.td4}>4</td>
-              </tr>
 
             </tbody>
           </table>
